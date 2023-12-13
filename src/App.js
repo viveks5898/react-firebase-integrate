@@ -40,6 +40,7 @@ function App() {
     const allData = dataDb.docs.map((val) => ({ ...val.data(), id: val.id }));
     
   };
+  
   getData();
   return (
     <div className="App">
